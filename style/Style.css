@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+}
+
+.container {
+    margin-left: 20px;
+    width: 80%;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+h1 {
+    color: #FFBF00;
+    font-family: 'Pacifico', cursive;
+}
+
+.move {
+    color:  rgb(255, 0, 0);
+}
+
+.menu {
+    padding: 10px;
+    align-self: center;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #AAA;
+    padding: 10px;
+}
+
+a:hover {
+    color: #ffff;
+}
+
+/*main*/
+
+.container-filme {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('../img/poderosoChefao.jpg');
+
+    height: 500px;
+    background-size:cover; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.descrip {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 4.0em;
+}
+
+/*botoes*/
+
+.bt {
+    background-color: rgba(255, 0, 0,.50);
+    border: none;
+    color: #fff;
+
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: 1s ease all;
+    border-radius: 30%;
+}
+
+.bt:hover {
+    background-color: #fff;
+    color: rgba(255, 0, 0);
+}
